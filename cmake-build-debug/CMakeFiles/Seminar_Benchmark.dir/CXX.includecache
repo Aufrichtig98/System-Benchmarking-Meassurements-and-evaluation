@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/manuel/Seminar Benchmark/listGeneration.cpp
+listGeneration.h
+/home/manuel/Seminar Benchmark/listGeneration.h
+fstream
+-
+string
+-
+random
+-
+sys/stat.h
+-
+iostream
+/home/manuel/Seminar Benchmark/iostream
+
+/home/manuel/Seminar Benchmark/listGeneration.h
+
