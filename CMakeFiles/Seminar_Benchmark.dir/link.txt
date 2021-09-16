@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Seminar_Benchmark.dir/main.cpp.o CMakeFiles/Seminar_Benchmark.dir/mergeSort.cpp.o CMakeFiles/Seminar_Benchmark.dir/quickSort.cpp.o CMakeFiles/Seminar_Benchmark.dir/heapSort.cpp.o CMakeFiles/Seminar_Benchmark.dir/listGeneration.cpp.o CMakeFiles/Seminar_Benchmark.dir/ANOVA.cpp.o -o Seminar_Benchmark 

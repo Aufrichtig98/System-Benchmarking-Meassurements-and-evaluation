@@ -11,13 +11,13 @@
 
 void fileCreation(){
 
-    mkdir("../result",0711);
-    mkdir("../result/result10kElements",0711);
-    mkdir("../result/result100kElements",0711);
-    mkdir("../result/result1000kElements",0711);
-    mkdir("../10kElements",0711);
-    mkdir("../100kElements",0711);
-    mkdir("../1000kElements",0711);
+    mkdir("./result",0711);
+    mkdir("./result/result10kElements",0711);
+    mkdir("./result/result100kElements",0711);
+    mkdir("./result/result1000kElements",0711);
+    mkdir("./10kElements",0711);
+    mkdir("./100kElements",0711);
+    mkdir("./1000kElements",0711);
 
     std::minstd_rand generator;
     generator.seed(1337);
@@ -31,7 +31,7 @@ void fileCreation(){
 
             std::ofstream outfile;
             std::string createFile = "";
-            std::string path = "../1" + ammountZero + "kElements";
+            std::string path = "./1" + ammountZero + "kElements";
 
             createFile = path + "/" + name + std::to_string(i) + ".txt";
 
